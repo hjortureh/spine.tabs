@@ -1,7 +1,9 @@
 
-# Spine Tab Example
+# Example
+
 
 This example is written in Sinatra to have friendy url support for the HTML5 History Api
+
 
 Run:
 
