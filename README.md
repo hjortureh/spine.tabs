@@ -12,41 +12,46 @@ Features
 Html: 
 
 ```html
-  <div id="container">
-        
-        <nav class="tabs">
-            <a href="/tab1">Tab 1</a>
-            <a href="/tab2">Tab 2</a>
-            <a href="/tab3">Tab 3</a>
-        </nav>
+<div id="container">
+      
+      <nav class="tabs">
+          <a href="/tab1">Tab 1</a>
+          <a href="/tab2">Tab 2</a>
+          <a href="/tab3">Tab 3</a>
+      </nav>
 
-        <article>
-            <section data-tab="tab1" >
-                -- Tab 1 Content --
-            </section>
-            <section data-tab="tab2" class="hidden" >
-                -- Tab 2 Content --
-            </section>
-            <section data-tab="tab3" class="hidden" >
-                -- Tab 3 Content --
-            </section>
-        </article>
+      <article>
+          <section data-tab="tab1" >
+              -- Tab 1 Content --
+          </section>
+          <section data-tab="tab2" class="hidden" >
+              -- Tab 2 Content --
+          </section>
+          <section data-tab="tab3" class="hidden" >
+              -- Tab 3 Content --
+          </section>
+      </article>
 
-  </div>
+</div>
 ```
 
 
 Javascript: 
 
-  // initalize tabs controller
-  new Spine.Controller.Tabs({ el: $("#container") });
+```js
 
-  // start routing
-  Spine.Route.setup({ history: true });
+// initalize tabs controller
+new Spine.Controller.Tabs({ el: $("#container") });
+
+// start routing
+Spine.Route.setup({ history: true });
+```
 
 
 CSS: 
 
-  .hidden {
-      display: none;
-  }
+```css
+.hidden {
+    display: none;
+}
+```
