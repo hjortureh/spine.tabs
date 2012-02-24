@@ -3,6 +3,7 @@
 Tabs behaviour written as a Spine.js controller
 
 Features
+
 * Navigates via url path using the HTML5 History API 
 * Nice fadeIn when switching between tabs
 
