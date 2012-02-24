@@ -1,4 +1,4 @@
-# Tab Controller for Spine.js
+# Tabs Controller for Spine.js
 
 Simple tabs behavior written as a Spine.js controller
 
@@ -50,7 +50,7 @@ new Spine.Controller.Tabs({ el: $("#container") });
 Spine.Route.setup({ history: true });
 ```
 
-
+s
 CSS: 
 
 ```css

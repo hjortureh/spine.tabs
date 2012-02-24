@@ -1,6 +1,6 @@
 /**
 * 
-*  Tab Controller for Spine.js
+*  Tabs Controller for Spine.js
 * 
 *  @author: Hjörtur Elvar Hilmarsson
 *  
