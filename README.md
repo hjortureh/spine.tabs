@@ -1,6 +1,7 @@
 # Tab Controller for Spine.js
 
-Tabs behaviour written as a Spine.js controller
+Simple tabs behavior written as a Spine.js controller
+
 
 Features
 
@@ -9,6 +10,7 @@ Features
 
 
 ## Usage
+
 
 Html: 
 
